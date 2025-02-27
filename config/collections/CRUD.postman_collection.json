@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "d80f8a05-837d-4302-a477-37af09917930",
+		"name": "CRUD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42040033"
+	},
+	"item": [
+		{
+			"name": "Empresas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3004/coperexSystem/empresa/get/?orden=ZA",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"coperexSystem",
+						"empresa",
+						"get",
+						""
+					],
+					"query": [
+						{
+							"key": "years",
+							"value": "5",
+							"disabled": true
+						},
+						{
+							"key": "categoria",
+							"value": "Importadora",
+							"disabled": true
+						},
+						{
+							"key": "orden",
+							"value": "ZA"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Empresa",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkNjc4NzdiNzE0ZjM2MjNjNzUzNDkiLCJpYXQiOjE3NDA1MjA5OTEsImV4cCI6MTc0MDUzODk5MX0.WEvdjlcv9dSL4bh3PPgAkDA0CgUKY50VKf9dza6vfMk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\":\"Intelafito\",\r\n  \"descripcion\":\"Venta de accesorios tecnológicos\",\r\n  \"impacto\":\"alto\",\r\n  \"years\":11,\r\n  \"categoria\":\"Tecnologia\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3004/coperexSystem/empresa/save/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"coperexSystem",
+						"empresa",
+						"save",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excel Report",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3004/coperexSystem/empresa/reporte",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"coperexSystem",
+						"empresa",
+						"reporte"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
