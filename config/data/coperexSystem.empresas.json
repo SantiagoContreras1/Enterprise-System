@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "67bf875359cd080fa60bcf0f"
+  },
+  "name": "Lumation",
+  "descripcion": "Empresa dedicada al desarrollo de software",
+  "impacto": "alto",
+  "years": 10,
+  "categoria": "Informatica",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf87a459cd080fa60bcf12"
+  },
+  "name": "La Feria",
+  "descripcion": "Empresa dedicada a traer juguetes",
+  "impacto": "alto",
+  "years": 25,
+  "categoria": "Juguetería",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf93797a92734a2be3266b"
+  },
+  "name": "Altuna",
+  "descripcion": "Importadora de objetos chinos",
+  "impacto": "alto",
+  "years": 25,
+  "categoria": "Importadora",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf93847a92734a2be3266e"
+  },
+  "name": "Zulum",
+  "descripcion": "Importadora de objetos chinos",
+  "impacto": "alto",
+  "years": 25,
+  "categoria": "Importadora",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf973b7a92734a2be3267d"
+  },
+  "name": "Pepito Repuestos Automotrices",
+  "descripcion": "Venta de repuestos automotríces",
+  "impacto": "medio",
+  "years": 35,
+  "categoria": "Importadora de Repestos",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf9e8a9cdb387b596dba4f"
+  },
+  "name": "Intelaf 2",
+  "descripcion": "Venta de accesorios tecnológicos",
+  "impacto": "alto",
+  "years": 8,
+  "categoria": "Tecnologia",
+  "estado": true,
+  "__v": 0
+}]
