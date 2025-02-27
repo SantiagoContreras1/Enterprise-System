@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "67bea86b3195ab4e10ea3e7b"
+  },
+  "name": "Pepito",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$2rP9ukIenWCFi3yBUnAGPg$Mtm3ci5AndXGFMFuqb/m+aNg7ZY2+gHd3g6rR1Gg+mw",
+  "estado": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bea8a83195ab4e10ea3e7f"
+  },
+  "name": "Mayen",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$m7eKJsbQ8HVN1/qyzLRAHQ$1ou1TbJn7aA0Et1AwMgFo24FKQ20MMGs8LfGNKVNvos",
+  "estado": true,
+  "__v": 0
+}]
